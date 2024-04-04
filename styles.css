@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header, .overview, .versions, .hypotheses, .predictions, .tests, footer {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.version {
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .versions {
+        display: flex;
+        justify-content: space-between;
+    }
+    .version {
+        flex: 1;
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    header h1, header h2 {
+        text-align: center;
+    }
+}
