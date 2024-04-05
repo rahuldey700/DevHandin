@@ -21,11 +21,18 @@
         </section>
 
         <!-- Detailed project overview and features -->
-        <section class="project-details">
-            <h2>Project Overview</h2>
-            <p>This project focuses on designing a user interface that incorporates essential features observed from popular websites...</p>
+        <section class="overview">
+    
             
-            <h3>Features and Inspiration</h3>
+            <h2>Comparison Table</h2>
+            <style>
+                .feature-table th, .feature-table td {
+                    width: 130px;
+                    text-align: center;
+                    vertical-align: middle;
+                }
+            </style>
+            
             <table class="feature-table">
                     <tr>
                         <th>Feature</th>
@@ -40,28 +47,73 @@
                         <td>No</td>
                     </tr>
                     <tr>
-                        <td>Sort by Rating</td>
+                        <td>Filter by Category</td>
                         <td>Yes</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Different Views</td>
+                        <td>No</td>
                         <td>Yes</td>
                         <td>No</td>
                     </tr>
                     <tr>
-                        <td>Sort by Rating</td>
+                        <td>Smart Recs</td>
                         <td>Yes</td>
                         <td>Yes</td>
                         <td>No</td>
                     </tr>
-                    <tr>
-                        <td>Sort by Rating</td>
-                        <td>Yes</td>
-                        <td>Yes</td>
-                        <td>No</td>
-                    </tr>
+                    <td>Reset Filters</td>
+                    <td>Yes</td>
+                    <td>No</td>
+                    <td>No</td>
+                </tr>
             </table>
 
-            <h3> Link to my deployed website: https://cars-gules.vercel.app/</h3>
-            <h3>Conclusion</h3>
-            <p>This project serves as a testament to the importance of user-centric design in web development...</p>
+        </section>
+
+        <section class="overview">
+
+            <h3> Link to my deployed website: <a href="https://cars-gules.vercel.app/" target="_blank">https://cars-gules.vercel.app/</a></h3>
+        
+        </section>
+
+
+            <section class="overview">
+
+            <h3>Rotten Tomatoes Reset Filters feature
+            </h3>
+            <p>With multiple layers of filters, it gets difficult to get back to the original and often useful default list. A Reset filters helps the user get back to the initial view once they have done playing around with other sorting and filtering mechanisms.  After sorting different movies in my Rotten Tomatoes list, such as filtering for 1-star-rated Action  Movies, I might want to get back to my original list of movies. The Reset filter is very helpful for this. 
+            </p>
+
+            <h3>GoodReads Batch Edit Filters
+            </h3>
+            <p>Especially when there is a large number of items, the user might want to edit a large number of items at once.  For example, I might want to delete 4 books because I read them or watched the movies. The Batch Edit Filter helps with this functionality. 
+            </p>
+            
+            <h3> Yelp’s Filter by Category 
+            </h3>
+            <p>For a varied list of items, the user might want to categorize them based on a common factor. For example, in my Yelp list, I have restaurants, barbers, cafes, and shops. I might only be looking for restaurants to have dinner in. So I can filter by restaurants and even further filter by ratings and price. 
+            </p>
+
+            <h3> My Interface:</h3>
+
+            <p> I am going to build a list of cars. The user will have the ability to choose different cars and then sort them by several factors such as price, size/type, color, etc. </p>
+            
+            <style>
+                ol {
+                    margin: 20px;
+                }
+            </style>
+            
+            <ol>
+                <li>Filter by key categories that are pertinent to the product. I’ve chosen Car Type, Color, and Price.</li>
+                <li>A reset filter option so the user can go back to their previous options</li>
+                <li>Ability to add/save products to a list</li>
+                <li>An informative view for the user so they can see the details at a glance and make a decision. I’ve chosen a card view that will contain images of the car along with some key information such as price and specs description.</li>
+            </ol>
+
         </section>
     </main>
 </body>
